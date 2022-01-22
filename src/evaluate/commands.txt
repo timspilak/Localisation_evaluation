@@ -1,0 +1,21 @@
+# make caktin workspace
+cd
+cd Documents/my_catkin_ws/
+catkin_make
+
+
+# start python node
+cd
+cd Documents/my_catkin_ws/src/evaluate/scripts/
+python publisher_node.py
+
+cd
+cd Documents/my_catkin_ws/src/evaluate/scripts/
+python initialpose_node.py
+
+cd
+cd Documents/my_catkin_ws/src/evaluate/scripts/
+python duration_node.py
+
+
+
